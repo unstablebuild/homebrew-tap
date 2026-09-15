@@ -1,9 +1,9 @@
 cask "rune" do
   arch arm: "arm64", intel: "amd64"
 
-  version "1.2.0"
-  sha256 arm:   "abd2ad20f125e77735d21dc99464f3f5dfce6d07065f07a48b410b0ca8cd0d30",
-         intel: "1ccd039ecd88c24b8ab4fac5b09b3dc173579ebd08e53ddfc65da9737851e598"
+  version "1.2.1"
+  sha256 arm:   "27d0f75a44962f105a67c60db570976583d8cc990209d6e1b0e4e700779bedfc",
+         intel: "192087f208010c14f74a9a47d08deeb50c096627a2331a5004f7113ecbd0bee7"
 
   url "https://github.com/unstablebuild/rune/releases/download/v#{version}/Rune-v#{version}-darwin-#{arch}.dmg"
   name "Rune"
