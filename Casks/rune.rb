@@ -7,7 +7,7 @@ cask "rune" do
 
   url "https://github.com/unstablebuild/rune/releases/download/v#{version}/Rune-v#{version}-darwin-#{arch}.dmg"
   name "Rune"
-  desc "Fast, GPU-rendered, keyboard-driven IDE"
+  desc "Rune is a fast, GPU-accelerated, full-featured IDE and terminal multiplexer, suitable both for automatic and manual programming."
   homepage "https://rune.build/"
 
   livecheck do
