@@ -1,11 +1,11 @@
 cask "rune" do
   arch arm: "arm64", intel: "amd64"
 
-  version "1.3.1"
-  sha256 arm:          "ee6c1f7b31a0010fe5105c75678dd5d1c85cf92ec42c80f740de14f8cee05b5c",
-         intel:        "8a9dfbab105d34971d20a0656bf0110736bc6757a695d8bd3de859d4ce00e174",
-         arm64_linux:  "7613bf8605a7977dbb2c1765b20a7ee4da2194506e7fb9da8ebfff0826938dcd",
-         x86_64_linux: "82ec4e1b625d2988edf91a912a509bac8b49044948c79171a2dead41bda57b2b"
+  version "1.3.2"
+  sha256 arm:          "62a0fce5503890efe2fe46e723b8d82e3850c60bdff8f6bf1f72020adc2db3d6",
+         intel:        "f0db3795a380838d2ad54ca85dc4be4fa88847864c735e56d43c656ec01dbb28",
+         arm64_linux:  "99b35fdf2c5fa2a2924fd6d183255479514cbf99e9b006392a4d4e7e1d35449e",
+         x86_64_linux: "b2d06bb396f8eb61cd3654e3727c84933c0ad7a80c8aa9fa92da90ea715a5fff"
 
   on_macos do
     url "https://github.com/unstablebuild/rune/releases/download/v#{version}/Rune-v#{version}-darwin-#{arch}.dmg"
